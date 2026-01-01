@@ -64,3 +64,8 @@ Thumbs.db
 # Runtime artifacts
 # -----------------------------
 *.log
+
+
+# credentials.json
+
+client_secrets.json
