@@ -1,0 +1,66 @@
+# -----------------------------
+# Python (da GitHub Python.gitignore)
+# -----------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers / linters caches
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# -----------------------------
+# Environments / secrets
+# -----------------------------
+# uv/venv: non committare ambienti locali
+.venv/
+venv/
+env/
+ENV/
+.env
+.envrc
+
+# -----------------------------
+# uv lockfile
+# -----------------------------
+# NON ignorare uv.lock: per app è consigliato committarlo (template GitHub lo lascia commentato)
+# uv.lock
+
+# -----------------------------
+# Editor / OS
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# VS Code: opzione A (consigliata) -> committa settings utili, ignora il resto
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# -----------------------------
+# Runtime artifacts
+# -----------------------------
+*.log
